@@ -7,7 +7,6 @@
 #include "hooker.h"
 #include "hooks/hooks.h"
 #include "offsets.h"
-#include "funcs/funcs.h"
 
 
 __attribute__((constructor))
@@ -25,8 +24,6 @@ void on_load()
 
     /* NetVarManager::DumpNetvars(); */ // will be useful for debug
     Offsets::GetOffsets();
-
-    InitFuncs();
 
     cvar->ConsoleColorPrintf(ColorRGBA(150, 150, 0), "csgoshit loaded fine\n");
 }

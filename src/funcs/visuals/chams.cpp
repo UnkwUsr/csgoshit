@@ -9,10 +9,6 @@ ConVar* cv_chams;
 
 IMaterial* materialFlat;
 
-void Chams::Init() {
-    cv_chams = 
-}
-
 void DrawPlayer(void* thisptr, void* context, void *state, const ModelRenderInfo_t &pInfo, matrix3x4_t* pCustomBoneToWorld)
 {
     C_BasePlayer* localplayer = (C_BasePlayer*) entityList->GetClientEntity(engine->GetLocalPlayer());
