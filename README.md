@@ -12,4 +12,6 @@ broken too fast. So I decided to write this hack. Later, as I already have
 base, I tried to add some features, like wallhack(chams) and triggerbot.
 
 ## Credits
-Thanks to [aimtux](https://github.com/AimTuxOfficial/AimTux) project for ~~sdk~~ base.
+Thanks to [aimtux](https://github.com/AimTuxOfficial/AimTux) project for
+~~sdk~~ ~~base~~ everything (this is 99% copy-pasta with trimmed things I
+thought "don't need").
